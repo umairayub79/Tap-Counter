@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:name=".Base">
-        
+
         <activity
             android:name=".activities.MainActivity"
             android:screenOrientation="portrait">

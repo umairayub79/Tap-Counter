@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 
-        ObjectBox.init(this);
+
 
         mButtonMinus = (ImageView) findViewById(R.id.btn_minus);
         mButtonPlus = (ImageView) findViewById(R.id.btn_plus);
