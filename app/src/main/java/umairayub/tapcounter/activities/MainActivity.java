@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         String countName = editText.getText().toString();
-                        if (editText.getText().toString().equals("")){
+                        if (editText.getText().toString().trim().equals("")) {
                             Toast.makeText(MainActivity.this, "Name cannot be blank", Toast.LENGTH_SHORT).show();
                         }else {
 
@@ -240,10 +240,4 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(context, name + " Saved!", Toast.LENGTH_SHORT).show();
     }
 
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        ObjectBox.boxStore.close();
-    }
 }
