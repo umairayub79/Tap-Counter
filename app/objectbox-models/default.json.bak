@@ -5,7 +5,7 @@
   "entities": [
     {
       "id": "1:3664838017622396821",
-      "lastPropertyId": "3:7951715745126098184",
+      "lastPropertyId": "4:8591528450993824522",
       "name": "Count",
       "properties": [
         {
@@ -17,8 +17,8 @@
           "name": "count"
         },
         {
-          "id": "3:7951715745126098184",
-          "name": "nameCount"
+          "id": "4:8591528450993824522",
+          "name": "countName"
         }
       ],
       "relations": []
@@ -32,7 +32,9 @@
   "modelVersionParserMinimum": 4,
   "retiredEntityUids": [],
   "retiredIndexUids": [],
-  "retiredPropertyUids": [],
+  "retiredPropertyUids": [
+    7951715745126098184
+  ],
   "retiredRelationUids": [],
   "version": 1
 }

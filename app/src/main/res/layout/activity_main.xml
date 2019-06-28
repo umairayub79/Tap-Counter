@@ -50,6 +50,17 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="#646464"/>
+
+    <TextView
+        android:id="@+id/display_vocal_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_display_count"
+        android:layout_marginBottom="130dp"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="Say &quot;Tap&quot;, &quot;Untap&quot; or &quot;Reset&quot;!"
+        android:textSize="20sp" />
     <TextView
         android:id="@+id/tv_display_count"
         android:layout_width="wrap_content"
@@ -63,6 +74,7 @@
         android:textSize="55sp" />
 
     <LinearLayout
+        android:layout_margin="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -72,10 +84,9 @@
         <ImageView
             android:background="?attr/selectableItemBackground"
             android:id="@+id/btn_minus"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginRight="60dp"
-            android:padding="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
             android:src="@drawable/minus" />
 
         <TextView
@@ -89,10 +100,9 @@
         <ImageView
             android:background="?attr/selectableItemBackground"
             android:id="@+id/btn_plus"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="60dp"
-            android:padding="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
             android:src="@drawable/plus" />
 
     </LinearLayout>

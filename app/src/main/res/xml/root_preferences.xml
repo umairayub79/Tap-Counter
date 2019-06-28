@@ -14,21 +14,25 @@
   ~ limitations under the License.
   -->
 
-<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-       <SwitchPreferenceCompat
-            android:icon="@drawable/sound"
-            app:key="sound"
-            app:title="Sound"
-            app:summary="Plays sound when plus or minus is pressed"
-            />
+    <SwitchPreferenceCompat
+        android:icon="@drawable/sound"
+        app:key="sound"
+        app:summary="Plays sound when plus or minus is pressed"
+        app:title="Sound" />
 
-        <SwitchPreferenceCompat
-            android:icon="@drawable/vibration"
-            app:key="vibrate"
-            app:summary="Make device vibrate when plus or minus is pressed"
-            app:title="Vibrate" />
+    <SwitchPreferenceCompat
+        android:icon="@drawable/vibration"
+        app:key="vibrate"
+        app:summary="Make device vibrate when plus or minus is pressed"
+        app:title="Vibrate" />
 
+    <SwitchPreferenceCompat
+        android:icon="@drawable/microphone"
+        app:key="vocal"
+        app:summary="Say &quot;Tap&quot; or &quot;Untap&quot;!"
+        app:title="Vocal commands" />
 
 </androidx.preference.PreferenceScreen>
